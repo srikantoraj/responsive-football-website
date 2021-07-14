@@ -25,6 +25,7 @@ h1{
     font-weight: 700;
     line-height: 90px;
 }
+
 .watch-live{
     width: 168px;
     height:44px ;
@@ -73,5 +74,45 @@ h1{
 }
 .player-info{
     font-weight: 400px;
+    color:#6C6C6C;
 }
+/* completion of players section */
+
+
+/* Starting of highlights section */
+.highlights-container{
+    width: 100%;
+    height: 667px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left-highlights-container{
+    width:470px;
+    height:309px;
+}
+.highlights-left,.highlights-right{
+    margin:0 33px;
+}
+h2{
+    width:700px;
+   font-size: 48px;
+   line-height: 60px;
+}
+.hightlight-info{
+    width: 404px;
+    margin-top: -25px;
+    color: #6C6C6C;
+    line-height: 26px;
+
+}
+
+.watch-now{
+    margin-top: 24px;
+}
+
+
+/* Completion of highlights section */
+
 
