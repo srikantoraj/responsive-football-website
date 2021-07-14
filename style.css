@@ -16,7 +16,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px;
 }
 .main-text,.watch-live-text {
     color:white;
@@ -43,5 +42,36 @@ h1{
 /* .........................
    Grid Section Start 
    ....................... */
-   
+/* .player-container{
+       width: 70%;
+       display: flex;
+       justify-content: center;
+   } */
+.player-container{
+    width: 70%;
+    margin:0 auto;
+    margin-top:55px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding:15px;
+    margin:15px 13px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player .player-banner img{
+    width: 300px;
+    height: 256px;
+}
+.player-name{
+    font-weight: 700px;
+}
+.player-info{
+    font-weight: 400px;
+}
 
