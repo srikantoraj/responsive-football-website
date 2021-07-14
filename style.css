@@ -36,6 +36,13 @@ h1{
     justify-content: space-evenly;
     align-items:center ;
     cursor: pointer;
+    transition:background-color 1s ease-in-out ;
+    transition:box-shadow .2s ease-in-out ;
+}
+.left div> div:hover{
+
+    background-color: #ff4e8f;
+    box-shadow: 1px 1px 1px #ff4e8f ;
 }
 /****************************
    Main Section End 
@@ -114,6 +121,10 @@ h2{
 /**********************************
  Completion of highlights section
  **********************************/
+
+ /***********************
+Starting featured video section 
+ ***********************/
  .featured-video {
      height: auto;
      display: flex;
@@ -127,6 +138,9 @@ h2{
      text-align: center;
      color:#333;
  }
+  /********************
+  Completion of featured video section 
+ ***********************/
 
 /***********************
 Starting footer section 
